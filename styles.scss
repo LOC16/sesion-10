@@ -1,0 +1,43 @@
+@import "./base/base";
+
+$firstcolor: red;
+$secondColor: blue;  
+$xxl: 76px;
+$xl: 48px;
+$l: 32px;
+$m: 16px;
+$s: 8px;
+h1 {
+    color: $firstcolor;
+    font-size: $xxl;
+}
+
+article > div > span {
+    color: $secondColor;
+    font-size: $xl;
+    width: $l;
+}
+
+.navigation {
+    width: 100%;
+    background-color: black;
+
+    &__list {
+        padding: 0 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        list-style: none;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: white;
+    }
+    
+    &--active {
+        color: red;
+    }
+}

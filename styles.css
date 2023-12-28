@@ -1,0 +1,35 @@
+.span_1 {
+  color: blue;
+  font-size: 36px;
+}
+
+h1 {
+  color: red;
+  font-size: 76px;
+}
+
+article > div > span {
+  color: blue;
+  font-size: 48px;
+  width: 32px;
+}
+
+.navigation {
+  width: 100%;
+  background-color: black;
+}
+.navigation__list {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation__item {
+  list-style: none;
+}
+.navigation__link {
+  text-decoration: none;
+  color: white;
+}
+.navigation--active {
+  color: red;
+}/*# sourceMappingURL=styles.css.map */
